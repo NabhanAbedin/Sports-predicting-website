@@ -133,6 +133,7 @@ nav ul li a:hover {
     background-color: rgb(244, 239, 239);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    transition: all 0.3s ease;
 
 
 
@@ -159,4 +160,17 @@ nav ul li a:hover {
 
 .selection-text h1 {
     font-size: 27px;
+}
+
+.card-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.selection:hover {
+    background-color: rgb(224, 220, 220);
+
+
 }
