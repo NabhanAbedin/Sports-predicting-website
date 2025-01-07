@@ -6,7 +6,7 @@
     background-color: rgb(35, 34, 34);
 }
 
-body {
+.questions-body {
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -15,6 +15,13 @@ body {
 
 
 
+}
+
+.selection-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 
