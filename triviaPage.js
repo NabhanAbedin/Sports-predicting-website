@@ -4,7 +4,8 @@ class Trivia {
     constructor(triviaPageItems, qustions) {
         this.triviaPageItems = triviaPageItems;
         this.questions = this.questions;
-        this.triviaHTML = document.querySelector('.js-container')
+        this.triviaHTML = document.querySelector('.js-container');
+        this.bodyHTML = document.querySelector('.js-questions-container');
     }
     constructHTML() {
         let html = '';
@@ -28,19 +29,23 @@ class Trivia {
 
     }
     generateQuestions() {
-        this.triviaHTML.innerHTML = 'sigma';
+
+        this.bodyHTML.innerHTML = html;
+
     }
 
 }
 
 const triviaPage = new Trivia(triviaPageItems);
-triviaPage.constructHTML();
+//triviaPage.constructHTML();
+
 
 const difficultyElement = document.querySelectorAll('.easy');
 difficultyElement.forEach(item => {
     item.addEventListener('click', () => {
         const itemId = item.getAttribute('data-id');
         console.log(itemId);
+        triviaPage.generateQuestions();
     })
 })
 
