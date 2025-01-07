@@ -120,6 +120,9 @@ nav ul li a:hover {
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     margin-bottom: 250px;
+    opacity: 0;
+    /* Start hidden */
+    animation: fadeIn 0.3s ease-in forwards;
 }
 
 .question {
