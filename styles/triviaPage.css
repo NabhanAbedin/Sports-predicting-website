@@ -141,6 +141,8 @@ nav ul li a:hover {
     background-color: transparent;
 }
 
+
+
 .choice-container {
     display: flex;
     align-items: center;
@@ -149,6 +151,10 @@ nav ul li a:hover {
     border-radius: 10px;
     transition: transform 0.2s ease;
     cursor: pointer;
+}
+
+.clicked {
+    background-color: #3d3d3d;
 }
 
 .choice-container:hover {
@@ -169,4 +175,32 @@ nav ul li a:hover {
     font-size: 18px;
     color: white;
     background-color: transparent;
+}
+
+.button-container {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 300px;
+}
+
+.finished-button {
+    background-color: rgb(113, 113, 113);
+    font-size: 20px;
+    border: none;
+    font-weight: bold;
+    color: white;
+    height: 7vh;
+    width: 8vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.finished-button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: #3d3d3d;
 }

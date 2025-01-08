@@ -20,155 +20,215 @@ export const easy = [
     {
         question: "Which team does LeBron James currently play for?",
         options: ["Los Angeles Lakers", "Golden State Warriors", "Miami Heat", "Cleveland Cavaliers"],
-        answer: "Los Angeles Lakers"
+        answer: "Los Angeles Lakers",
+        number: 1,
+        answerNumber: 1
     },
     {
         question: "What is the maximum number of points a player can score in a single shot in basketball?",
         options: ["1", "2", "3", "4"],
-        answer: "3"
+        answer: "3",
+        number: 2,
+        answerNumber: 3
     },
     {
         question: "What is the regulation time for an NBA game?",
         options: ["40 minutes", "48 minutes", "60 minutes", "90 minutes"],
-        answer: "48 minutes"
+        answer: "48 minutes",
+        number: 3,
+        answerNumber: 2
     },
     {
         question: "Which team has won the most NBA championships?",
         options: ["Boston Celtics", "Los Angeles Lakers", "Chicago Bulls", "San Antonio Spurs"],
-        answer: "Boston Celtics"
+        answer: "Boston Celtics",
+        number: 4,
+        answerNumber: 1
     },
     {
         question: "What does NBA stand for?",
         options: ["National Basketball Association", "National Ball Association", "National Basket Association", "New Basketball Alliance"],
-        answer: "National Basketball Association"
+        answer: "National Basketball Association",
+        number: 5,
+        answerNumber: 1
     },
     {
         question: "Who is known as 'His Airness' in basketball?",
         options: ["Kobe Bryant", "LeBron James", "Michael Jordan", "Shaquille O'Neal"],
-        answer: "Michael Jordan"
+        answer: "Michael Jordan",
+        number: 6,
+        answerNumber: 3
     },
     {
         question: "How many players are on the court for one team during a basketball game?",
         options: ["5", "6", "7", "8"],
-        answer: "5"
+        answer: "5",
+        number: 7,
+        answerNumber: 1
     },
     {
         question: "What is the name of the championship trophy in the NBA?",
         options: ["Larry O'Brien Trophy", "NBA Championship Trophy", "Basketball Championship Cup", "Naismith Trophy"],
-        answer: "Larry O'Brien Trophy"
+        answer: "Larry O'Brien Trophy",
+        number: 8,
+        answerNumber: 1
     },
     {
         question: "Which NBA team is nicknamed 'The Warriors'?",
         options: ["Golden State", "Miami Heat", "Chicago Bulls", "Los Angeles Lakers"],
-        answer: "Golden State"
+        answer: "Golden State",
+        number: 9,
+        answerNumber: 1
     },
     {
         question: "Who is the tallest player to have ever played in the NBA?",
         options: ["Yao Ming", "Manute Bol", "Shaquille O'Neal", "Kareem Abdul-Jabbar"],
-        answer: "Manute Bol"
+        answer: "Manute Bol",
+        number: 10,
+        answerNumber: 2
     },
 
     // Soccer Questions
     {
         question: "How many players are on the field for one team in a soccer match?",
         options: ["9", "10", "11", "12"],
-        answer: "11"
+        answer: "11",
+        number: 11,
+        answerNumber: 3
     },
     {
         question: "What is the duration of a standard soccer match?",
         options: ["60 minutes", "90 minutes", "120 minutes", "45 minutes"],
-        answer: "90 minutes"
+        answer: "90 minutes",
+        number: 12,
+        answerNumber: 2
     },
     {
         question: "What is the name of the international soccer championship held every four years?",
         options: ["UEFA Champions League", "FIFA World Cup", "Copa América", "Premier League"],
-        answer: "FIFA World Cup"
+        answer: "FIFA World Cup",
+        number: 13,
+        answerNumber: 2
     },
     {
         question: "Which country has won the most FIFA World Cups?",
         options: ["Brazil", "Germany", "Italy", "Argentina"],
-        answer: "Brazil"
+        answer: "Brazil",
+        number: 14,
+        answerNumber: 1
     },
     {
         question: "What is the name of the soccer position responsible for defending the goal?",
         options: ["Forward", "Midfielder", "Defender", "Goalkeeper"],
-        answer: "Goalkeeper"
+        answer: "Goalkeeper",
+        number: 15,
+        answerNumber: 4
     },
     {
         question: "Which player is known as 'CR7' in soccer?",
         options: ["Lionel Messi", "Cristiano Ronaldo", "Neymar Jr.", "Zlatan Ibrahimović"],
-        answer: "Cristiano Ronaldo"
+        answer: "Cristiano Ronaldo",
+        number: 16,
+        answerNumber: 2
     },
     {
         question: "Which country hosts the English Premier League?",
         options: ["Spain", "Germany", "England", "Italy"],
-        answer: "England"
+        answer: "England",
+        number: 17,
+        answerNumber: 3
     },
     {
         question: "Which team has the nickname 'The Red Devils'?",
         options: ["Manchester United", "Liverpool", "Chelsea", "Arsenal"],
-        answer: "Manchester United"
+        answer: "Manchester United",
+        number: 18,
+        answerNumber: 1
     },
     {
         question: "What is a 'hat-trick' in soccer?",
         options: ["Scoring three goals in a match", "Scoring two goals in a match", "Blocking three shots", "Winning three games in a row"],
-        answer: "Scoring three goals in a match"
+        answer: "Scoring three goals in a match",
+        number: 19,
+        answerNumber: 1
     },
     {
         question: "Which soccer player is known as 'The Little Magician'?",
         options: ["Lionel Messi", "Diego Maradona", "Andrés Iniesta", "Philippe Coutinho"],
-        answer: "Lionel Messi"
+        answer: "Lionel Messi",
+        number: 20,
+        answerNumber: 1
     },
 
     // Easy International Questions
     {
         question: "What is the official name of soccer in most countries?",
         options: ["Football", "Soccer", "Futbol", "Goalball"],
-        answer: "Football"
+        answer: "Football",
+        number: 21,
+        answerNumber: 1
     },
     {
         question: "Which country won the FIFA World Cup in 2018?",
         options: ["France", "Croatia", "Brazil", "Germany"],
-        answer: "France"
+        answer: "France",
+        number: 22,
+        answerNumber: 1
     },
     {
         question: "What is the primary color of the Brazil national soccer team jersey?",
         options: ["Blue", "Yellow", "Green", "White"],
-        answer: "Yellow"
+        answer: "Yellow",
+        number: 23,
+        answerNumber: 2
     },
     {
         question: "Who won the NBA championship in 2020?",
         options: ["Golden State Warriors", "Miami Heat", "Los Angeles Lakers", "Boston Celtics"],
-        answer: "Los Angeles Lakers"
+        answer: "Los Angeles Lakers",
+        number: 24,
+        answerNumber: 3
     },
     {
         question: "Which soccer club does Lionel Messi currently play for?",
         options: ["Barcelona", "Inter Miami", "Paris Saint-Germain", "Manchester City"],
-        answer: "Inter Miami"
+        answer: "Inter Miami",
+        number: 25,
+        answerNumber: 2
     },
     {
         question: "What is the shape of a soccer ball?",
         options: ["Square", "Hexagon", "Sphere", "Octagon"],
-        answer: "Sphere"
+        answer: "Sphere",
+        number: 26,
+        answerNumber: 3
     },
     {
         question: "Which team won the first-ever NBA championship?",
         options: ["Philadelphia Warriors", "Boston Celtics", "Chicago Bulls", "New York Knicks"],
-        answer: "Philadelphia Warriors"
+        answer: "Philadelphia Warriors",
+        number: 27,
+        answerNumber: 1
     },
     {
         question: "Which country has the most UEFA Champions League titles?",
         options: ["Spain", "England", "Italy", "Germany"],
-        answer: "Spain"
+        answer: "Spain",
+        number: 28,
+        answerNumber: 1
     },
     {
         question: "What is the standard size of a basketball hoop rim?",
         options: ["16 inches", "18 inches", "20 inches", "22 inches"],
-        answer: "18 inches"
+        answer: "18 inches",
+        number: 29,
+        answerNumber: 2
     },
     {
         question: "What is the penalty for a red card in soccer?",
         options: ["10-minute timeout", "Ejection from the game", "Free kick for the opposing team", "Yellow card warning"],
-        answer: "Ejection from the game"
+        answer: "Ejection from the game",
+        number: 30,
+        answerNumber: 2
     }
 ];
