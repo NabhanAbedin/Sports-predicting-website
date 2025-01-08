@@ -67,9 +67,9 @@ nav ul li a:hover {
 }
 
 .difficulty-container {
-    width: 90.75vw;
+    width: 85.75vw;
     /* 1500px converted assuming viewport width is 1600px */
-    height: 74.78vh;
+    height: .78vh;
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
