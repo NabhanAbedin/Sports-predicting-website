@@ -6,12 +6,12 @@ export const triviaPageItems = [{
 }, {
     image: "images/jonny-gios-pa447fb59MI-unsplash.jpg",
     header: "Medium",
-    text: "Step up your game with more challenging questions that challenge your knowledge of basketball and soccer beyond the basics. These questions dive into team strategies, memorable games, and iconic records, requiring a bit more familiarity with the sports. Test yourself by identifying lesser-known players, recalling pivotal matchups, or understanding key rules and tactics. Whether it’s knowing the MVP of a championship game or the details of a famous penalty shootout, this level is perfect for fans who want to test their deeper sports knowledge!",
+    text: "Step up your game with more challenging questions that challenge your knowledge of basketball and soccer beyond the basics. Test yourself by identifying lesser-known players, recalling specfic matchups, or understanding some key rules and tactics. Whether knowing the MVP of a championship game or the details of a famous penalty shootout, this level is perfect for fans who want to test their deeper sports knowledge!",
     id: '2'
 }, {
     image: "images/fauzan-saari-AmhdN68wjPc-unsplash.jpg",
     header: "Hard",
-    text: "Only true sports fans can answer these hard-level trivia questions! This level takes you into the intricacies of basketball and soccer history, legendary moments, and detailed statistics. Be prepared to recall obscure player stats, historic team lineups, or surprising facts about iconic tournaments. Whether it’s identifying the team with the most consecutive championship wins or recalling a record-breaking performance in a specific year, these questions are designed to push your expertise to the limit and separate casual fans from sports aficionados!",
+    text: "Only true sports fans can answer these hard-level trivia questions! key moments in basketball and soccer history, and detailed statistics. player stats, historic team lineups, or surprising facts about iconic tournaments. Whether identifying the team with the most consecutive championship wins or recalling a record-breaking performance in a specific year, these questions are designed to push your expertise to the limit and separate casual fans from sports aficionados!",
     id: '3'
 }];
 
@@ -230,5 +230,223 @@ export const easy = [
         answer: "Ejection from the game",
         number: 30,
         answerNumber: 2
+    }
+];
+
+export const medium = [
+    // NBA Questions
+    {
+        question: "Which NBA player is known for the nickname 'The Mailman'?",
+        options: ["Karl Malone", "Charles Barkley", "Scottie Pippen", "Shaquille O'Neal"],
+        answer: "Karl Malone",
+        number: 1,
+        answerNumber: 1
+    },
+    {
+        question: "Which NBA team holds the record for the longest winning streak in a season?",
+        options: ["Chicago Bulls", "Golden State Warriors", "Los Angeles Lakers", "Miami Heat"],
+        answer: "Los Angeles Lakers",
+        number: 2,
+        answerNumber: 3
+    },
+    {
+        question: "Who was the first overall pick in the 2003 NBA Draft?",
+        options: ["LeBron James", "Carmelo Anthony", "Chris Bosh", "Dwyane Wade"],
+        answer: "LeBron James",
+        number: 3,
+        answerNumber: 1
+    },
+    {
+        question: "What is the minimum height required for an NBA hoop from the ground?",
+        options: ["8 feet", "14 feet", "12 feet", "10 feet"],
+        answer: "10 feet",
+        number: 4,
+        answerNumber: 4
+    },
+    {
+        question: "Which team did Kobe Bryant spend his entire career with?",
+        options: ["Chicago Bulls", "Los Angeles Lakers", "Boston Celtics", "Miami Heat"],
+        answer: "Los Angeles Lakers",
+        number: 5,
+        answerNumber: 2
+    },
+    {
+        question: "Who was the first NBA player to record a quadruple-double?",
+        options: ["Nate Thurmond", "Hakeem Olajuwon", "David Robinson", "Oscar Robertson"],
+        answer: "Nate Thurmond",
+        number: 6,
+        answerNumber: 1
+    },
+    {
+        question: "Which team drafted Dirk Nowitzki in 1998?",
+        options: ["Milwaukee Bucks", "Dallas Mavericks", "Phoenix Suns", "San Antonio Spurs"],
+        answer: "Milwaukee Bucks",
+        number: 7,
+        answerNumber: 1
+    },
+    {
+        question: "Which NBA player was nicknamed 'The Big Ticket'?",
+        options: ["Shaquille O'Neal", "Tim Duncan", "Kevin Garnett", "Allen Iverson"],
+        answer: "Kevin Garnett",
+        number: 8,
+        answerNumber: 3
+    },
+    {
+        question: "Which coach has the most NBA championships?",
+        options: ["Phil Jackson", "Gregg Popovich", "Red Auerbach", "Pat Riley"],
+        answer: "Phil Jackson",
+        number: 9,
+        answerNumber: 1
+    },
+    {
+        question: "What year was the NBA founded?",
+        options: ["1950", "1946", "1956", "1960"],
+        answer: "1946",
+        number: 10,
+        answerNumber: 2
+    },
+
+    // Soccer Questions
+    {
+        question: "Who won the Ballon d'Or in 2010?",
+        options: ["Lionel Messi", "Cristiano Ronaldo", "Xavi Hernandez", "Andres Iniesta"],
+        answer: "Lionel Messi",
+        number: 11,
+        answerNumber: 1
+    },
+    {
+        question: "Which country hosted the 2010 FIFA World Cup?",
+        options: ["Italy", "Brazil", "Germany", "South Africa"],
+        answer: "South Africa",
+        number: 12,
+        answerNumber: 4
+    },
+    {
+        question: "What is the name of the stadium where Manchester United plays home matches?",
+        options: ["Etihad Stadium", "Anfield", "Old Trafford", "Stamford Bridge"],
+        answer: "Old Trafford",
+        number: 13,
+        answerNumber: 3
+    },
+    {
+        question: "Which soccer club has won the most UEFA Champions League titles?",
+        options: ["Real Madrid", "AC Milan", "Liverpool", "Barcelona"],
+        answer: "Real Madrid",
+        number: 14,
+        answerNumber: 1
+    },
+    {
+        question: "What is the maximum number of substitutions allowed in a FIFA World Cup match?",
+        options: ["3", "5", "4", "6"],
+        answer: "5",
+        number: 15,
+        answerNumber: 2
+    },
+    {
+        question: "Who scored the fastest goal in World Cup history?",
+        options: ["Hakan Şükür", "Pele", "Diego Maradona", "Zinedine Zidane"],
+        answer: "Hakan Şükür",
+        number: 16,
+        answerNumber: 1
+    },
+    {
+        question: "Which player scored the 'Hand of God' goal?",
+        options: ["Pele", "Diego Maradona", "Lionel Messi", "Cristiano Ronaldo"],
+        answer: "Diego Maradona",
+        number: 17,
+        answerNumber: 2
+    },
+    {
+        question: "What is the standard diameter of a soccer ball?",
+        options: ["24 cm", "22 cm", "25 cm", "28 cm"],
+        answer: "22 cm",
+        number: 18,
+        answerNumber: 2
+    },
+    {
+        question: "Which country won the first FIFA World Cup in 1930?",
+        options: ["Uruguay", "Argentina", "Brazil", "Italy"],
+        answer: "Uruguay",
+        number: 19,
+        answerNumber: 1
+    },
+    {
+        question: "What is the maximum length of a professional soccer field?",
+        options: ["100 yards", "110 yards", "120 yards", "130 yards"],
+        answer: "120 yards",
+        number: 20,
+        answerNumber: 3
+    },
+
+    // Medium International Questions
+    {
+        question: "Which country is known as the birthplace of soccer?",
+        options: ["England", "Brazil", "Germany", "Spain"],
+        answer: "England",
+        number: 21,
+        answerNumber: 1
+    },
+    {
+        question: "Which country won the FIFA Women's World Cup in 2019?",
+        options: ["USA", "Germany", "Netherlands", "Japan"],
+        answer: "USA",
+        number: 22,
+        answerNumber: 1
+    },
+    {
+        question: "Which MLS team does David Beckham co-own?",
+        options: ["Seattle Sounders", "LA Galaxy", "New York City FC", "Inter Miami"],
+        answer: "Inter Miami",
+        number: 23,
+        answerNumber: 4
+    },
+    {
+        question: "Which Brazilian soccer player is known as 'O Rei' (The King)?",
+        options: ["Ronaldo", "Ronaldinho", "Neymar", "Pele"],
+        answer: "Pele",
+        number: 24,
+        answerNumber: 4
+    },
+    {
+        question: "Who holds the record for most goals scored in a single World Cup?",
+        options: ["Miroslav Klose", "Just Fontaine", "Pele", "Ronaldo"],
+        answer: "Just Fontaine",
+        number: 25,
+        answerNumber: 2
+    },
+    {
+        question: "Which soccer club has a stadium named 'Camp Nou'?",
+        options: ["Barcelona", "Real Madrid", "Atletico Madrid", "Sevilla"],
+        answer: "Barcelona",
+        number: 26,
+        answerNumber: 1
+    },
+    {
+        question: "Which player scored the decisive goal in the 2014 FIFA World Cup Final?",
+        options: ["Mario Götze", "Lionel Messi", "Thomas Müller", "Toni Kroos"],
+        answer: "Mario Götze",
+        number: 27,
+        answerNumber: 1
+    },
+    {
+        question: "Which year did Lionel Messi win his first Ballon d'Or?",
+        options: ["2011", "2010", "2009", "2008"],
+        answer: "2009",
+        number: 28,
+        answerNumber: 3
+    },
+    {
+        question: "Which African country made it to the quarterfinals of the 2010 FIFA World Cup?",
+        options: ["Ghana", "Nigeria", "Cameroon", "Ivory Coast"],
+        answer: "Ghana",
+        number: 29,
+        answerNumber: 1
+    },
+    {
+        question: "Which country has won the most Copa América titles?",
+        options: ["Argentina", "Brazil", "Uruguay", "Chile"],
+        answer: "Uruguay",
+        number: 30,
+        answerNumber: 3
     }
 ];

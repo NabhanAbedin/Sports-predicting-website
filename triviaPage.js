@@ -1,4 +1,4 @@
-import { triviaPageItems, easy } from "./data/triviaPageData.js";
+import { triviaPageItems, easy, medium } from "./data/triviaPageData.js";
 
 class Trivia {
     constructor(triviaPageItems, qustions) {
@@ -223,6 +223,8 @@ difficultyElement.forEach(item => {
         //console.log(itemId);
         if (itemId === '1') {
             triviaPage.generateQuestions(easy);
+        } else if (itemId === '2') {
+            triviaPage.generateQuestions(medium);
         }
     })
 })
