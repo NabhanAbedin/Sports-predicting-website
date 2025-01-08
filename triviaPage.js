@@ -181,7 +181,7 @@ class Trivia {
                         </div>
 
                        </div>
-                        <div class="restart-container"><button class="restart-button">Restart!</button></div>
+                        <div class="restart-container"><a href="triviaPage.html"><button class="restart-button">Restart!</button></a></div>
                     </div>
         `;
         this.bodyHTML.innerHTML = html;
