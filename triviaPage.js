@@ -124,6 +124,7 @@ class Trivia {
             })
 
         })
+
         document.body.addEventListener('click', (event) => {
             if (event.target.classList.contains('js-finished-button')) {
                 const length = Object.keys(questionAnswers).length;
@@ -151,14 +152,56 @@ class Trivia {
         return matchingQuestion;
     }
     generateScoreHTML(questionAnswers) {
+
+
         let score = 0;
+
         Object.keys(questionAnswers).forEach(key => {
             if (questionAnswers[key] === 'correct') {
                 score++;
             }
+        });
+
+
+        //console.log(score);
+        let html = `   <div class="final-score">
+                        <h1>Final Score:</h1>
+                        <p>Correct: ${score}/10</p>
+                        <p>Wrong: ${10 - score}/10</p>
+                        </div>
+
+                        <div class="final-score-bars">
+                        <div class="progress">
+                            <div class="progress-done"></div>
+
+                      </div>
+                      <div class="progress">
+                            <div class="wrong-answer-bar"></div>
+
+                        </div>
+
+                       </div>
+                        <div class="restart-container"><button class="restart-button">Restart!</button></div>
+                    </div>
+        `;
+        this.bodyHTML.innerHTML = html;
+
+        const finalScore = document.querySelector('.progress-done');
+        const wrongScore = document.querySelector('.wrong-answer-bar');
+
+        setTimeout(() => {
+            finalScore.style.width = `${score * 10}%`;
+            wrongScore.style.width = `${100 - (score * 10)}%`;
+        }, 100);
+
+
+        const restartElement = document.querySelector('.restart-button');
+        restartElement.addEventListener('click', () => {
+            console.log('clicked');
+            this.constructHTML();
         })
-        console.log(score);
-        let html = '';
+
+
 
     }
 
@@ -170,6 +213,7 @@ class Trivia {
 
 const triviaPage = new Trivia(triviaPageItems);
 triviaPage.constructHTML();
+//triviaPage.generateScoreHTML();
 
 
 const difficultyElement = document.querySelectorAll('.easy');
@@ -188,5 +232,7 @@ document.body.addEventListener('click', (event) => {
         console.log('clicked');
     }
 });
+
+
 
 //triviaPage.checkAnswer();
