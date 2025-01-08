@@ -450,3 +450,221 @@ export const medium = [
         answerNumber: 3
     }
 ];
+
+export const hard = [
+    // NBA Questions
+    {
+        question: "Which NBA player holds the record for most points scored in a single game?",
+        options: ["Wilt Chamberlain", "Kobe Bryant", "Michael Jordan", "Elgin Baylor"],
+        answer: "Wilt Chamberlain",
+        number: 1,
+        answerNumber: 1
+    },
+    {
+        question: "Which team has the most NBA championships?",
+        options: ["Boston Celtics", "Los Angeles Lakers", "Chicago Bulls", "Golden State Warriors"],
+        answer: "Boston Celtics",
+        number: 2,
+        answerNumber: 1
+    },
+    {
+        question: "Who has the most career assists in NBA history?",
+        options: ["Magic Johnson", "Jason Kidd", "John Stockton", "Steve Nash"],
+        answer: "John Stockton",
+        number: 3,
+        answerNumber: 3
+    },
+    {
+        question: "Which team has the worst record in a single NBA season?",
+        options: ["Charlotte Bobcats", "Philadelphia 76ers", "Minnesota Timberwolves", "Cleveland Cavaliers"],
+        answer: "Charlotte Bobcats",
+        number: 4,
+        answerNumber: 1
+    },
+    {
+        question: "Who was the first player to win MVP, All-Star MVP, and Finals MVP in the same season?",
+        options: ["Michael Jordan", "LeBron James", "Larry Bird", "Shaquille O'Neal"],
+        answer: "Michael Jordan",
+        number: 5,
+        answerNumber: 1
+    },
+    {
+        question: "Which team has the longest winning streak in NBA history?",
+        options: ["Golden State Warriors", "Los Angeles Lakers", "Miami Heat", "Chicago Bulls"],
+        answer: "Los Angeles Lakers",
+        number: 6,
+        answerNumber: 2
+    },
+    {
+        question: "Which player holds the record for most career rebounds in NBA history?",
+        options: ["Wilt Chamberlain", "Bill Russell", "Kareem Abdul-Jabbar", "Shaquille O'Neal"],
+        answer: "Wilt Chamberlain",
+        number: 7,
+        answerNumber: 1
+    },
+    {
+        question: "Who was the first international player drafted as the number one overall pick?",
+        options: ["Dirk Nowitzki", "Yao Ming", "Andrea Bargnani", "Hakeem Olajuwon"],
+        answer: "Hakeem Olajuwon",
+        number: 8,
+        answerNumber: 4
+    },
+    {
+        question: "What is the diameter of an NBA basketball hoop?",
+        options: ["16 inches", "18 inches", "20 inches", "22 inches"],
+        answer: "18 inches",
+        number: 9,
+        answerNumber: 2
+    },
+    {
+        question: "Which coach has the most wins in NBA history?",
+        options: ["Phil Jackson", "Don Nelson", "Gregg Popovich", "Pat Riley"],
+        answer: "Don Nelson",
+        number: 10,
+        answerNumber: 2
+    },
+
+    // Soccer Questions
+    {
+        question: "Which team won the first-ever FIFA World Cup in 1930?",
+        options: ["Uruguay", "Argentina", "Brazil", "Italy"],
+        answer: "Uruguay",
+        number: 11,
+        answerNumber: 1
+    },
+    {
+        question: "Who has scored the most goals in World Cup history?",
+        options: ["Miroslav Klose", "Pele", "Ronaldo", "Just Fontaine"],
+        answer: "Miroslav Klose",
+        number: 12,
+        answerNumber: 1
+    },
+    {
+        question: "Which team has won the most UEFA Champions League titles?",
+        options: ["Real Madrid", "AC Milan", "Liverpool", "Bayern Munich"],
+        answer: "Real Madrid",
+        number: 13,
+        answerNumber: 1
+    },
+    {
+        question: "What year was the first FIFA Women's World Cup held?",
+        options: ["1991", "1995", "1999", "2003"],
+        answer: "1991",
+        number: 14,
+        answerNumber: 1
+    },
+    {
+        question: "Which country has hosted the most FIFA World Cups?",
+        options: ["Italy", "Germany", "Brazil", "Mexico"],
+        answer: "Brazil",
+        number: 15,
+        answerNumber: 3
+    },
+    {
+        question: "Which player is known as 'The Divine Ponytail'?",
+        options: ["Roberto Baggio", "Paolo Maldini", "Alessandro Del Piero", "Francesco Totti"],
+        answer: "Roberto Baggio",
+        number: 16,
+        answerNumber: 1
+    },
+    {
+        question: "What is the official weight of a FIFA-regulated soccer ball?",
+        options: ["14-15 oz", "16-17 oz", "18-19 oz", "20-21 oz"],
+        answer: "14-15 oz",
+        number: 17,
+        answerNumber: 1
+    },
+    {
+        question: "Which country won the first FIFA Women's World Cup?",
+        options: ["USA", "Norway", "Germany", "China"],
+        answer: "USA",
+        number: 18,
+        answerNumber: 1
+    },
+    {
+        question: "Which club team has the most domestic league titles?",
+        options: ["Rangers FC", "Celtic FC", "Real Madrid", "Manchester United"],
+        answer: "Rangers FC",
+        number: 19,
+        answerNumber: 1
+    },
+    {
+        question: "Who is the all-time leading scorer in La Liga history?",
+        options: ["Cristiano Ronaldo", "Lionel Messi", "Raul", "Telmo Zarra"],
+        answer: "Lionel Messi",
+        number: 20,
+        answerNumber: 2
+    },
+
+    // Hard International Questions
+    {
+        question: "What year did the offside rule originate in soccer?",
+        options: ["1863", "1872", "1881", "1900"],
+        answer: "1863",
+        number: 21,
+        answerNumber: 1
+    },
+    {
+        question: "Which country won the Olympic gold medal in soccer in 2004?",
+        options: ["Argentina", "Brazil", "Italy", "Germany"],
+        answer: "Argentina",
+        number: 22,
+        answerNumber: 1
+    },
+    {
+        question: "Which African team was the first to make it to the World Cup quarterfinals?",
+        options: ["Cameroon", "Nigeria", "Senegal", "Ghana"],
+        answer: "Cameroon",
+        number: 23,
+        answerNumber: 1
+    },
+    {
+        question: "Who was the first player to score a hat-trick in a World Cup match?",
+        options: ["Bert Patenaude", "Just Fontaine", "Pele", "Diego Maradona"],
+        answer: "Bert Patenaude",
+        number: 24,
+        answerNumber: 1
+    },
+    {
+        question: "Which country won the Copa América in 2001?",
+        options: ["Colombia", "Brazil", "Argentina", "Uruguay"],
+        answer: "Colombia",
+        number: 25,
+        answerNumber: 1
+    },
+    {
+        question: "Which player holds the record for most consecutive Ballon d'Or wins?",
+        options: ["Lionel Messi", "Cristiano Ronaldo", "Michel Platini", "Johan Cruyff"],
+        answer: "Lionel Messi",
+        number: 26,
+        answerNumber: 1
+    },
+    {
+        question: "Which country won the first-ever European Championship in 1960?",
+        options: ["Soviet Union", "Spain", "France", "Germany"],
+        answer: "Soviet Union",
+        number: 27,
+        answerNumber: 1
+    },
+    {
+        question: "What is the maximum number of players a soccer team can substitute in a match?",
+        options: ["5", "6", "3", "7"],
+        answer: "5",
+        number: 28,
+        answerNumber: 1
+    },
+    {
+        question: "Which player has the most goals in FIFA World Cup qualifiers?",
+        options: ["Cristiano Ronaldo", "Ali Daei", "Lionel Messi", "Miroslav Klose"],
+        answer: "Cristiano Ronaldo",
+        number: 29,
+        answerNumber: 1
+    },
+    {
+        question: "Which goalkeeper has the most clean sheets in World Cup history?",
+        options: ["Gianluigi Buffon", "Manuel Neuer", "Claudio Taffarel", "Peter Shilton"],
+        answer: "Peter Shilton",
+        number: 30,
+        answerNumber: 4
+    }
+];
