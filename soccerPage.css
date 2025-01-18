@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+    background-color: rgb(35, 34, 34);
+    color: white;
+
+}
+
+body {
+    margin: 0;
+    /* Remove default margins */
+    display: flex;
+    /* Enable flexbox for the body */
+    flex-direction: column;
+    /* Arrange children (nav and container) in a column */
+    height: 100vh;
+    /* Full height of the viewport */
+}
+
+nav {
+    flex-shrink: 0;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 3%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+
+}
+
+.leagues-container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.leagues-container h1 {
+    margin-bottom: 30px;
+}
+
+.leagues {
+    width: 80vw;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.league-select {
+
+    height: 100%;
+    margin: 0px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.league-select p {
+    margin-top: 40px;
+    font-size: 25px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.logo {
+    background-color: transparent;
+    width: auto;
+    height: 70%;
+    object-fit: cover;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, .8);
+
+}
+
+.league-select:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.league-select:hover p {
+    opacity: 1;
+
+}
