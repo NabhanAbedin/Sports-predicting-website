@@ -17,6 +17,14 @@ class SoccerPrediction {
         })
     }
     predictionHTML(leaguecsv) {
+        this.htmlContainer.innerHTML = `
+        <div class="table-container">
+        <h1 class="text-center">Premier League Predictions!</h1>
+        <div class="df-table">
+        </div>
+    </div>
+        
+        `
         const data = { league: leaguecsv }
         fetch('http://127.0.0.1:80/preprocess', {
             method: 'POST',
@@ -29,9 +37,11 @@ class SoccerPrediction {
             .then(response => response.json())
             .then(data => {
                 console.log('Response from server:', data);
-                this.htmlContainer.innerHTML = data['wins'];
+                const tableElement = document.querySelector('.df-table')
+                tableElement.innerHTML = data['wins'];
             })
             .catch(error => console.error('Error:', error));
+
 
 
 

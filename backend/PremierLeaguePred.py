@@ -93,8 +93,13 @@ class Predictor:
     
 
     def create_final_df(self,combined,matches_rolling):
+
         combined = combined.merge(matches_rolling[['Date','Team','Opponent','Result']], left_index=True, right_index=True)
-        #combined = combined.sort_values('Date')
+        combined = combined.sort_values(['Team','Date'])
+        combined = combined.drop_duplicates(subset=['Date', 'Team', 'Opponent', 'Result'])
+        combined = combined[combined['Date'] >= '2023-08-01']
+
+        return combined
 
 
 '''
