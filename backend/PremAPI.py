@@ -20,6 +20,14 @@ def preprocess():
 
     final_df = predictor.create_final_df(combined,matches_rolling)
     df_html = final_df.to_html(classes='table table-stripped', index=False)
+
+    for column in final_df:
+        df_html = df_html.replace(f'<td>{column}</td>', 
+                          f'<td data-label="{column}">{column}</td>')
+        
+    for result in ['W', 'D', 'L']:
+        df_html = df_html.replace(f'<td>{result}</td>', 
+                          f'<td data-value="{result}">{result}</td>')
     
     return jsonify({'wins': str(df_html)})
 

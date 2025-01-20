@@ -140,4 +140,57 @@ nav ul li a:hover {
 
 .table-container {
     margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.df-table {
+    overflow-x: auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+}
+
+.dataframe {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+
+}
+
+.dataframe thead th {
+    color: white;
+    padding: 12px 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.dataframe td {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.dataframe td:nth-child(1) {
+    font-weight: bold;
+    /* other styles */
+}
+
+.dataframe td:nth-child(1)[data-value="W"],
+.dataframe td:nth-child(2)[data-value="W"],
+.dataframe td:nth-child(6)[data-value="W"] {
+    color: #28a745;
+}
+
+.dataframe td:nth-child(1)[data-value="L"],
+.dataframe td:nth-child(2)[data-value="L"],
+.dataframe td:nth-child(6)[data-value="L"] {
+    color: red;
+}
+
+.dataframe td:nth-child(1)[data-value="D"],
+.dataframe td:nth-child(2)[data-value="D"],
+.dataframe td:nth-child(6)[data-value="D"] {
+    color: rgb(199, 199, 199);
 }
