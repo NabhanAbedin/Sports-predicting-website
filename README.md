@@ -2,17 +2,17 @@ Premier League Predictor Website
 
 Overview
 
-Welcome to the Premier League Predictor Website, a web application that predicts football match outcomes for the Premier League using machine learning. In addition to match predictions, the site includes a trivia section with questions ranked as easy, medium, and hard to engage football fans of all levels.
+Welcome to the Premier League Predictor Website, a web application that predicts football match outcomes for the Premier League using machine learning. In addition to match predictions, the site includes a trivia section with questions ranked as easy, medium, and hard of soccer and NBA basketball.
 
 Features
 
 Match Prediction: Predict Premier League matches using a Random Forest machine learning model.
 
-Multi-League Expansion: Predictions extended to other leagues through advanced web scraping.
+Multi-League Expansion: Predictions extended to other leagues through web scraping.
 
 Interactive Interface: Clean and responsive UI built with HTML, CSS, and JavaScript.
 
-Trivia Game: Test your football knowledge with trivia questions of varying difficulty levels.
+Trivia Game: Test soccer and basketball knowledge with trivia questions of different difficulty levels.
 
 Flask API Integration: Data pipeline to integrate predictions into the frontend.
 
