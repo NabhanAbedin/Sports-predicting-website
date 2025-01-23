@@ -2,7 +2,7 @@ Premier League Predictor Website
 
 Overview
 
-Welcome to the Premier League Predictor Website, a web application that predicts football match outcomes for the Premier League using advanced machine learning techniques. In addition to match predictions, the site includes a trivia section with questions ranked as easy, medium, and hard to engage football fans of all levels.
+Welcome to the Premier League Predictor Website, a web application that predicts football match outcomes for the Premier League using machine learning. In addition to match predictions, the site includes a trivia section with questions ranked as easy, medium, and hard to engage football fans of all levels.
 
 Features
 
