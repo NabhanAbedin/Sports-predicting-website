@@ -13,7 +13,7 @@ def preprocess():
     print(f'Recieved Data: {data}')
     print('data:', data['league'])
     
-    global matches_rolling, predictors, new_cols
+
     matches_rolling, predictors, new_cols = predictor.preprocess_data()
 
     combined, precision = predictor.make_predictions(matches_rolling, predictors + new_cols)
