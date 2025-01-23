@@ -8,7 +8,6 @@ class SoccerPrediction {
         leagueSelect.forEach(league => {
             league.addEventListener('click', () => {
                 const leagueName = league.getAttribute('data-country');
-                //console.log(leagueName)
                 if (leagueName === 'England') {
                     this.predictionHTML('backend/PremierLeague.csv', 'Premier League')
                 } else if (leagueName == 'Spain') {
@@ -42,7 +41,6 @@ class SoccerPrediction {
         })
             .then(response => response.json())
             .then(data => {
-                //console.log('Response from server:', data);
                 const tableElement = document.querySelector('.df-table')
                 tableElement.innerHTML = data['wins'];
                 console.log(data['precision'])

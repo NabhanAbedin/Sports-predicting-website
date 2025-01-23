@@ -34,13 +34,12 @@ class Trivia {
     generateQuestions(questions) {
         document.body.classList.remove('selection-body');
         document.body.classList.add('questions-body');
-        const questionsCopy = [...questions]; // Create a copy to preserve the original array
-        //console.log(questionsCopy)
+        const questionsCopy = [...questions];
         this.tenQuestions = [];
 
         for (let i = 0; i < 10; i++) {
             const randomIndex = Math.floor(Math.random() * questionsCopy.length);
-            const value = questionsCopy.splice(randomIndex, 1)[0]; // Remove the element at randomIndex and return it
+            const value = questionsCopy.splice(randomIndex, 1)[0];
             this.tenQuestions.push(value);
         }
         console.log(this.tenQuestions);
@@ -88,7 +87,7 @@ class Trivia {
 
         questionElement.forEach(question => {
             const choices = question.querySelectorAll('.choice-container');
-            //console.log(question.dataset);
+
 
 
 
@@ -96,11 +95,11 @@ class Trivia {
                 choice.addEventListener('click', () => {
 
                     const questionNumber = question.dataset.questionNumber;
-                    //console.log(`Question Number: ${questionNumber}`);
+
 
 
                     const currentQuestion = this.matchingQuestion(questionNumber);
-                    //console.log(currentQuestion);
+
 
                     choices.forEach(otherChoice => {
                         otherChoice.classList.remove('clicked');
@@ -164,7 +163,7 @@ class Trivia {
         });
 
 
-        //console.log(score);
+
         let html = `   <div class="final-score">
                         <h1>Final Score:</h1>
                         <p>Correct: ${score}/10</p>
@@ -207,14 +206,13 @@ class Trivia {
 
 const triviaPage = new Trivia(triviaPageItems);
 triviaPage.constructHTML();
-//triviaPage.generateScoreHTML();
 
 
 const difficultyElement = document.querySelectorAll('.easy');
 difficultyElement.forEach(item => {
     item.addEventListener('click', () => {
         const itemId = item.getAttribute('data-id');
-        //console.log(itemId);
+
         if (itemId === '1') {
             triviaPage.generateQuestions(easy);
         } else if (itemId === '2') {
@@ -233,4 +231,4 @@ document.body.addEventListener('click', (event) => {
 
 
 
-//triviaPage.checkAnswer();
+
