@@ -1,5 +1,5 @@
 from flask import Flask, jsonify, request, render_template
-from PremierLeaguePred import Predictor
+from Predictor import Predictor
 from flask_cors import CORS
 
 app = Flask(__name__)
@@ -19,6 +19,8 @@ def preprocess():
     combined, precision = predictor.make_predictions(matches_rolling, predictors + new_cols)
 
     final_df = predictor.create_final_df(combined,matches_rolling)
+    
+
     df_html = final_df.to_html(classes='table table-stripped', index=False)
 
     for column in final_df:
@@ -29,9 +31,7 @@ def preprocess():
         df_html = df_html.replace(f'<td>{result}</td>', 
                           f'<td data-value="{result}">{result}</td>')
     
-    return jsonify({'wins': str(df_html)})
-
-    #return render_template('soccerPrediction.html', table=df_html)
+    return jsonify({'wins': str(df_html), 'precision': str(precision)})
 
 if __name__ == '__main__':
     app.run(host= '0.0.0.0', port=80)

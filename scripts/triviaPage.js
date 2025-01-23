@@ -196,13 +196,6 @@ class Trivia {
         }, 100);
 
 
-        const restartElement = document.querySelector('.restart-button');
-        restartElement.addEventListener('click', () => {
-            console.log('clicked');
-            this.constructHTML();
-        })
-
-
 
     }
 
