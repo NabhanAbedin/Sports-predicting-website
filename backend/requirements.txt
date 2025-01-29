@@ -2,3 +2,6 @@ flask
 flask-cors
 pandas  # If using pandas for data processing
 gunicorn  # Required for deployment
+scikit-learn==1.4.0  # <-- Add this line
+pandas==2.2.0        # (if you use pandas)
+numpy==1.26.4  
