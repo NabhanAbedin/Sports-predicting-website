@@ -31,7 +31,7 @@ class SoccerPrediction {
         
         `
         const data = { league: leaguecsv }
-        fetch('http://127.0.0.1:80/preprocess', {
+        fetch('https://sports-predicting-website.onrender.com/preprocess', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
