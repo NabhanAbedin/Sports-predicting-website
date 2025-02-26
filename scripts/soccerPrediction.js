@@ -9,11 +9,11 @@ class SoccerPrediction {
             league.addEventListener('click', () => {
                 const leagueName = league.getAttribute('data-country');
                 if (leagueName === 'England') {
-                    this.predictionHTML('backend/PremierLeague.csv', 'Premier League')
+                    this.predictionHTML('PremierLeague.csv', 'Premier League')
                 } else if (leagueName == 'Spain') {
-                    this.predictionHTML('backend/laLiga.csv', 'La Liga')
+                    this.predictionHTML('laLiga.csv', 'La Liga')
                 } else if (leagueName == 'Italy')
-                    this.predictionHTML('backend/SerieA.csv', 'Serie A')
+                    this.predictionHTML('SerieA.csv', 'Serie A')
 
             })
         })
